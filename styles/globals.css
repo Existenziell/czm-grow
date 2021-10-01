@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 
-p {
-  @apply my-4;
+:root {
+  --color-brand: #8c00ff;
+}
+
+a {
+  @apply text-brand hover:underline !important;
 }
 
 h1 {
